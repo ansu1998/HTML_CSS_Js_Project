@@ -66,7 +66,7 @@ section:nth-child(even){
 header{
     position: fixed;
     top:0; left: 0; right:0;
-    background: #fff;
+    background:red;
     padding:1rem 7%;
     display: flex;
     align-items: center;
@@ -531,12 +531,15 @@ header .icons #menu-bars{
 
 .order form .btn{
     margin-top: 0;
+    color: white;
+    background: red;
 }
 
 .footer .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap:1.5rem;
+    background: black;
 }
 
 .footer .box-container .box h3{
@@ -559,6 +562,7 @@ header .icons #menu-bars{
 
 .footer .credit{
     text-align: center;
+    background: red;
     border-top: .1rem solid rgba(0,0,0,.1);
     font-size: 2rem;
     color:var(--black);
